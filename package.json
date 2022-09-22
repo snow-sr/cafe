@@ -1,0 +1,26 @@
+{
+  "name": "cafe",
+  "version": "1.0.0",
+  "description": "an system for managing the coffee consumption of a team",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Felipi Cardoso(snow-sr)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/socket.io": "^3.0.2",
+    "prisma": "^4.2.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.2.1",
+    "@serialport/parser-readline": "^10.3.0",
+    "chalk": "^5.0.1",
+    "express": "^4.18.1",
+    "serialport": "^10.4.0",
+    "socket.io": "^4.5.2",
+    "socket.io-client": "^4.5.2",
+    "socketio": "^1.0.0"
+  }
+}
