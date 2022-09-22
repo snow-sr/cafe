@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rpi": "node ./bin/readArduino.js",
+    "server": "node ./index.js",
+    "dev": "node ./index.js"
   },
   "author": "Joao Felipi Cardoso(snow-sr)",
   "license": "ISC",
