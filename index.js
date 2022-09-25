@@ -1,6 +1,5 @@
 import { Server } from "socket.io";
 import chalk from "chalk";
-
 const io = new Server(8087, {});
 
 io.on("connection", (socket) => {
@@ -12,6 +11,6 @@ io.on("connection", (socket) => {
   });
 
   socket.on("coffee_taken", (id) => {
-    console.log(`coffee ${chalk.bold.blue(id)} is taken`);
+    console.log(`coffee ${chalk.bold.blue(id.id)} is taken`);
   });
 });
